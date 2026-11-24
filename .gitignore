@@ -1,0 +1,53 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local Whisper / PyTorch model weights and cache
+*.pt
+*.pth
+*.bin
+*.safetensors
+.cache/
+models/
+
+# Audio recordings and temporary uploads (keep .gitkeep)
+data/audio/*
+!data/audio/.gitkeep
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+
+# Generated analytics reports (keep .gitkeep)
+results/*
+!results/.gitkeep
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+logs/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

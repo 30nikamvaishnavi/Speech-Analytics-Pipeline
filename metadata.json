@@ -1,0 +1,6 @@
+{
+  "name": "Speech-Analytics-Pipeline",
+  "description": "End-to-end two-stage speech analytics pipeline using local OpenAI Whisper transcription, Google Gemini structured analytics, Pydantic v2 validation, deterministic evidence verification, and Streamlit + CSV/JSON exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
